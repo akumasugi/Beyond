@@ -20,12 +20,12 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
                 `*📮𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽𝘀*\n\n
-                 *「ENJOY GROUP LINK 」*:https://chat.whatsapp.com/JdCxJkOzJn38TRYq5Q5evp \n
-                 *「owner's number」*:👑-1 https://wa.me//+918130784851\n\n👑-2 https://wa.me//+919574584820`,
+                 *「ENJOY GROUP LINK 」*:https://chat.whatsapp.com/LmrpcC24KwfKVWtoVvySsC \n
+                 *「owner's number」*:👑-1 https://wa.me//+27781973632\n\n👑-2 https://wa.me//+917892202052`,
            MessageType.text
         ))
         const n = [
-            'https://i.pinimg.com/564x/e5/ab/cc/e5abcca9633085d2b54b31362017b9ec.jpg'
+            'https://i.ibb.co/hBjPQnN/85bb1b7e21ace42079fcbe32c019f751.jpg'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
