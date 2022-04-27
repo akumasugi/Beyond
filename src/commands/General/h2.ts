@@ -60,7 +60,7 @@ export default class Command extends BaseCommand {
  ──❅┈[ marin ]┈❅───
 ┌────────────┈❅
 │   🎀𝓜𝓐𝓡𝓘𝓝𝓔🎀
-│   ©️ MADED BY AYUSH
+│   ©️ 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐊𝐔𝐌𝐀
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
