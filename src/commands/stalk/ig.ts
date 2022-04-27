@@ -9,12 +9,12 @@ import axios from 'axios'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'ig',
-            aliases:  ['igdl', 'igpr'],
+            command: 'igdl',
+            aliases: ['igdl', 'igpr'],
             description: 'Download the post/video from ig ',
             category: 'media',
             dm: true,
-            usage: `${client.config.prefix}ig [link]`
+            usage: `${client.config.prefix}igdl [link]`
         })
     }
     // static count = 0
