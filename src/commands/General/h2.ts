@@ -44,7 +44,7 @@ export default class Command extends BaseCommand {
 ╭─「Kon'nichiwa *${M.sender.username}*'san
 │⋊ I'am:  🎀𝓜𝓐𝓡𝓘𝓝𝓔🎀
 │⋊ MY PREFIX: ${this.client.config.prefix}
-│⋊ オーナー : *${this.client.config.prefix}mod*
+│⋊ オーナー : 𝐀𝐊𝐔𝐌𝐀
 │⋊ インスタ : https://www.instagram.com/akuma__24/?hl=en     
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
