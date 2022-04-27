@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         if (!joined) return void (await M.reply(`Give me your name, Baka!`))
         const chitoge = joined.trim()
-        return void M.reply( await request.buffer(`https://api-xcoders.xyz/api/ephoto/coverpubg?text=${chitoge}&apikey=nMLptkNt9s`),
+        return void M.reply( await request.buffer(`https://textpro.me/create-blackpink-logo-style-online-1001.html`),
         MessageType.image,
                     undefined,
                     undefined,
