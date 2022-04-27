@@ -17,7 +17,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
-            const n = ["https://telegra.ph/file/e15eddbd05c6383c27820.mp4",
+            const n = ["https://telegra.ph/file/db24c38291c3b809c57ba.mp4",
 		      ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
 	if (!parsedArgs.joined) {
@@ -44,8 +44,8 @@ export default class Command extends BaseCommand {
 ╭─「Kon'nichiwa *${M.sender.username}*'san
 │⋊ I'am:  🎀𝓜𝓐𝓡𝓘𝓝𝓔🎀
 │⋊ MY PREFIX: ${this.client.config.prefix}
-│⋊ 私の愛: *${this.client.config.prefix}mod*
-│⋊ 私の愛 : wa.me//+918130784851     
+│⋊ オーナー: 𝐀𝐊𝐔𝐌𝐀
+│⋊ インスタ : https://www.instagram.com/akuma__24/?hl=en     
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -60,7 +60,7 @@ export default class Command extends BaseCommand {
  ──❅┈[MARIN]┈❅───
 ┌────────────┈❅
 │   🎀𝓜𝓐𝓡𝓘𝓝𝓔🎀
-│   ©️ MADED BY AYUSH
+│   ©️ 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐊𝐔𝐌𝐀
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
