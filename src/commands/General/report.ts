@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
         
              const term = joined.trim()
             await this.client.sendMessage(
-		`918130784851@s.whatsapp.net`,
+		`917892202052@s.whatsapp.net`,
              	`*\n👤 *User:@${M.sender.jid.split("@")[0]}*\n🎏: *${M.sender.username}*\n🔖 *Message: ${term}*\n From : ${M.groupMetadata?.subject} `,
                   MessageType.text
             );
