@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
     M: ISimplifiedMessage,
     { joined }: IParsedArgs
   ): Promise<void> => {
-    if (M.from !== "120363038893453733@g.us ")
+    if (M.from !== "120363042287370394@g.us")
       return void M.reply(
         `You can't use this command here. Use ${this.client.config.prefix}support to get the quiz group link.`
       );
