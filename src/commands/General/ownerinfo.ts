@@ -17,26 +17,23 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://i.pinimg.com/564x/e5/ab/cc/e5abcca9633085d2b54b31362017b9ec.jpg',
+            'https://i.ibb.co/zWMWrzw/e435b4143a83c543c9cfdc795e66d8de.jpg',
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.image, {quoted:M.WAMessage,
             mimetype: Mimetype.jpeg,
-            caption: `Hello  !🍃This is ✴🎀𝓜𝓐𝓡𝓘𝓝𝓔🎀✴ , And here is the info about my owners talk with them nicely and dont forget to follow their instagram.
+            caption: `💖𝗛𝗘𝗟𝗟𝗢!💖I'm 𝐀𝐊𝐔𝐌𝐀 an ordinary guy who loves watching anime & play games🎮. I'm a BCA Student💖relationship with 𝐙𝐄𝐑𝐎💖.
             
-📫𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥;
-Wa.me/+919574584820
-Wa.me/+918130784851
-⭕𝙂𝙞𝙩𝙝𝙪𝙗;
-https://github.com/monarch21
-📮𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢;
-https://instagram.com/at.__010
-https://instagram.com/Bts.bigghitofficial7
-🕸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢;
-https://t.me/kim_Ayush
-🚀𝘿𝙞𝙨𝙘𝙤𝙧𝙙;
->> https://discord.gg/Gkevahetaq <<
-⪼𝖲𝖾𝖾 𝗒𝖺𝗁 💘` }
+💖𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏;
+Wa.me/917892202052
+
+💖𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊;
+https://facebook.com/groups/600441174428472/
+
+💖𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌;
+https://www.instagram.com/akuma__24/?hl=
+
+⪼𝖲𝖾𝖾 𝗒𝖺𝗁 have a great day💖💖` }
         )
     }
 }
