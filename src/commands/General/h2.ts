@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
-           const n = fs.readFileSync['https://telegra.ph/file/a2e239e8be0dc9abc1ddc.mp4']
+           const n = fs.readFileSync['./asstes/AYUSH.mp3']
         let chitoge = n[Math.floor(Math.random() * n.length)]
 	if (!parsedArgs.joined) {
 			const commands = this.handler.commands.keys();
